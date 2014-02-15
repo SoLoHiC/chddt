@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.ynu.android.chddt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SetInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".SampleOneActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name=".ResultActivity" >
+        </activity>
+        <activity
+            android:name=".SetDoctorInfoActivity"
+            android:label="@string/setdoctorinfo"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".InfoShowActivity"
+            android:label="@string/info"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/resultreport"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

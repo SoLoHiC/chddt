@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="160dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/sampleposition" />
+
+    <CheckBox
+        android:id="@+id/cb_aortic"
+        android:layout_width="@dimen/sample_positioncheckboxsize"
+        android:layout_height="@dimen/sample_positioncheckboxsize"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/check_sel"
+        android:button="@drawable/empty"
+        android:checked="true"
+        android:padding="0dp" />
+
+    <CheckBox
+        android:id="@+id/cb_pulmonary"
+        android:layout_width="@dimen/sample_positioncheckboxsize"
+        android:layout_height="@dimen/sample_positioncheckboxsize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/check_sel"
+        android:button="@drawable/empty"
+        android:checked="true"
+        android:padding="0dp" />
+
+    <CheckBox
+        android:id="@+id/cb_tricuspid"
+        android:layout_width="@dimen/sample_positioncheckboxsize"
+        android:layout_height="@dimen/sample_positioncheckboxsize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/check_sel"
+        android:button="@drawable/empty"
+        android:checked="true"
+        android:padding="0dp" />
+
+    <CheckBox
+        android:id="@+id/cb_mitral"
+        android:layout_width="@dimen/sample_positioncheckboxsize"
+        android:layout_height="@dimen/sample_positioncheckboxsize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/check_sel"
+        android:button="@drawable/empty"
+        android:checked="true"
+        android:padding="0dp" />
+
+</RelativeLayout>

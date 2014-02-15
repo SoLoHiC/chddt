@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="length">
+        <item>512</item>
+        <item >1024</item>
+        <item >2048</item>
+        <item >4096</item>
+        <item >8192</item>
+    </string-array>
+    <string-array name="sexs">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    
+    <string-array name="ageunits">
+        <item>岁</item>
+        <item>月</item>
+        <item>天</item>
+    </string-array>
+</resources>

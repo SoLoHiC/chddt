@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="sampleone_bottom_height">43dp</dimen>
+    <dimen name="sample_positionname">20dp</dimen>
+    <dimen name="sample_positionheight">24dp</dimen>
+    <dimen name="sample_positioncheckboxsize">24dp</dimen>
+    <dimen name="setdoctorinfo_dlgwidth">260dp</dimen>
+
+</resources>
